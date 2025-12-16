@@ -1,0 +1,416 @@
+{
+    "Computer Science": [
+        {"question": "Which data type is immutable in Python?",
+     "options": ["List", "Dictionary", "Tuple", "Set"], "answer_index": 2},
+        {"question": "Which operator is used for exponentiation?",
+     "options": ["^", "**", "//", "%%"], "answer_index": 1},
+        {"question": "What is the output of 3//2?",
+     "options": ["1.5", "2", "1", "Error"], "answer_index": 2},
+        {"question": "Which is not a Python keyword?",
+     "options": ["while", "if", "repeat", "elif"], "answer_index": 2},
+        {"question": "What does break do?",
+     "options": ["Skips one iteration", "Stops the loop", "Ends program", "Restarts loop"], "answer_index": 1},
+        {"question": "Which method adds an item at the end of a list?",
+     "options": ["add()", "insert()", "append()", "push()"], "answer_index": 2},
+        {"question": "Which function removes leading/trailing spaces?",
+     "options": ["strip()", "remove()", "clean()", "del()"], "answer_index": 0},
+        {"question": "Which value is considered False?",
+     "options": ["0", "None", "Empty string", "All of these"], "answer_index": 3},
+        {"question": "Which of the following statements is used to create an empty set?",
+     "options": ["[]", "{}", "()", "set()"], "answer_index": 3},
+        {"question": "Using a `with` statement when working with files ensures:",
+     "options": ["The file is automatically closed", "Faster I/O operations", "More memory usage", "Automatic file compression"], "answer_index": 0},
+        {"question": "Which method returns a list of all lines from an open text file?",
+     "options": ["readlines()", "read()", "readline()", "split()"], "answer_index": 0},
+        {"question": "Which object from the `csv` module is commonly used to iterate over rows in a CSV file?",
+     "options": ["csv.load", "csv.reader", "csv.readrows", "csv.DictReader"], "answer_index": 1},
+        {"question": "What is the default delimiter used by Python's `csv` module?",
+     "options": [",", ";", "\\t", "|"], "answer_index": 0},
+        {"question": "What are variables listed inside the function definition called?",
+     "options": ["Arguments", "Parameters", "Constants", "Keywords"], "answer_index": 1},
+        {"question": "Which type of argument must be passed in the correct order?",
+     "options": ["Keyword arguments", "Default arguments", "Positional arguments", "Variable arguments"], "answer_index": 2},
+        {"question": "Which symbol is used to define variable-length positional arguments?",
+     "options": ["#", "*", "**", "&"], "answer_index": 1},
+        {"question": "What happens if a function does not have a return statement?",
+     "options": ["It returns 0", "It returns None", "It gives an error", "It prints automatically"], "answer_index": 1},
+        {"question": "What does the return statement do in a function?",
+     "options": ["Stops the loop", "Ends the function and sends a value", "Prints output", "Defines parameters"], "answer_index": 1},
+        {"question": "Which statement is TRUE about parameters and arguments?",
+     "options": ["Arguments and parameters are the same", 
+                 "Parameters receive values, arguments send values", 
+                 "Arguments are defined inside the function", 
+                 "Parameters are passed while calling the function"], 
+     "answer_index": 1},
+        {"question": "Which function returns a list of attributes and methods of a module?",
+     "options": ["info()", "dir()", "list()", "attributes()"], "answer_index": 1},
+        {"question": "Recursion is a process where a function:",
+     "options": ["calls itself", "returns another function", "loops infinitely", "stores variables"], "answer_index": 0},
+        {"question": "What does a generator function use instead of return?",
+     "options": ["yield", "send", "next", "out"], "answer_index": 0},
+        {"question": "What is the main purpose of a decorator?",
+     "options": ["To repeat a function", "To modify function behavior", "To remove a function", "To rename a function"], "answer_index": 1},
+        {"question": "A callback function is:",
+     "options": ["A function calling itself", "A function passed as an argument", "A function with no parameters", "A built-in function"], "answer_index": 1},
+        {"question": "A closure in Python is a function that remembers:",
+     "options": ["Global variables", "Local variables from its scope", "Arguments only", "Nothing after execution"], "answer_index": 1},
+        {"question": "Which method starts the wxPython event loop?",
+     "options": ["Main()", "Run()", "MainLoop()", "Start()"], "answer_index": 2},
+        {"question": "Which wxPython class represents the main application window?",
+     "options": ["wx.Screen", "wx.Frame", "wx.Window", "wx.Panel"], "answer_index": 1},
+        {"question": "Which widget is used to create a button in wxPython?",
+     "options": ["wx.TextButton", "wx.PushButton", "wx.Button", "wx.ClickButton"], "answer_index": 2},
+        {"question": "Which function selects elements from an iterable based on a condition?",
+     "options": ["map()", "filter()", "reduce()", "select()"], "answer_index": 1},
+        {"question": "Which function reduces an iterable to a single value?",
+     "options": ["map()", "filter()", "reduce()", "zip()"], "answer_index": 2},
+        {"question": "What does map() return?",
+     "options": ["A list", "A tuple", "A map object", "A dictionary"], "answer_index": 2},
+        {"question": "Lambda functions can have how many expressions?",
+     "options": ["0", "1", "2", "Unlimited"], "answer_index": 1},
+        {"question": "Which statement is TRUE about zip()?",
+     "options": ["It returns a dictionary", "It pairs elements from multiple iterables", "It sorts items", "It removes duplicates"], "answer_index": 1},
+        {"question": "What happens when iterables of unequal lengths are passed to zip()?",
+     "options": ["Raises error", "Fills missing values with None", "Stops at the shortest iterable", "Repeats items"], "answer_index": 2},
+        {"question": "Which is the correct file extension for Python files?",
+     "options": [".python", ".pt", ".pyt", ".py"], "answer_index": 3},
+        {"question": "A decorator in Python is applied using which symbol?",
+     "options": ["@", "$", "&", "%"], "answer_index": 0},
+        {"question": "What does filter() expect as its first argument?",
+     "options": ["Condition function", "Iterable", "Value", "Boolean"], "answer_index": 0},
+        {"question": "reduce(lambda x, y: x + y, [1,2,3]) gives:",
+     "options": ["6", "1", "[1,2,3]", "Error"], "answer_index": 0},
+        {"question": "Which function in recursion ensures the function eventually stops?",
+     "options": ["stop()", "limit()", "return()", "Base case"], "answer_index": 3},
+        {"question": "Which logical operator has the highest precedence?",
+     "options": ["AND", "NOT", "OR", "All have same precedence"], "answer_index": 1},
+        {"question": "Which of the following is used to create a block of code?",
+     "options": ["Braces {}", "Indentation", "Semicolon", "Parentheses"], "answer_index": 1},
+        {"question": "Which loop is used when the number of iterations is unknown?",
+     "options": ["for", "while", "do-while", "loop"], "answer_index": 1},
+        {"question": "What is the index of the first element in a Python list?",
+     "options": ["1", "0", "-1", "Depends"], "answer_index": 1},
+        {"question": "Which function is used to get ASCII value?",
+     "options": ["ascii()", "ord()", "char()", "asc()"], "answer_index": 1},
+        {"question": "Which operator checks equality?",
+     "options": ["=", "==", "!=", "==="], "answer_index": 1},
+        {"question": "Which structure cannot contain duplicate elements?",
+     "options": ["List", "Tuple", "Dictionary", "Set"], "answer_index": 3},
+        {"question": "Which function is commonly used to debug code by halting execution?",
+     "options": ["stop()", "debug()", "breakpoint()", "debugger()"], "answer_index": 2},
+        {"question": "What does map(lambda x: x*2, [1,2,3]) return?",
+     "options": ["[2,4,6]", "(2,4,6)", "map object", "Error"], "answer_index": 2},
+        {"question": "Which wxPython widget is used to display text that the user cannot edit?",
+     "options": ["wx.TextCtrl", "wx.Label", "wx.StaticText", "wx.TextDisplay"], "answer_index": 2},
+        {"question": "In a class, what does the self keyword refer to?",
+     "options": ["The class name", "The current instance of the class", "The parent class", "The module"], "answer_index": 1}
+        
+    ],
+
+    "EPD": [
+    {"question": "A diode allows current in:",
+         "options": ["One direction", "Both directions", "None", "AC only"], "answer_index": 0},
+    
+    {"question": "A diode conducts current when it is:",
+     "options": ["Reverse biased", "Forward biased", "Open circuited", "Short circuited"], "answer_index": 1},
+
+    {"question": "The barrier potential of a silicon diode is approximately:",
+     "options": ["0.3 V", "0.7 V", "1.1 V", "2.2 V"], "answer_index": 1},
+
+    {"question": "Zener diodes operate mainly in:",
+     "options": ["Forward region", "Reverse breakdown region", "Cutoff region", "Saturation region"], "answer_index": 1},
+
+    {"question": "Avalanche breakdown occurs due to:",
+     "options": ["Minority carriers", "Tunneling effect", "Impact ionization", "Thermal runaway"], "answer_index": 2},
+
+    {"question": "A clipper circuit is used to:",
+     "options": ["Increase signal amplitude", "Remove parts of the waveform", "Store charge", "Shift DC level"], "answer_index": 1},
+
+    {"question": "A clamper circuit is used to:",
+     "options": ["Limit voltage", "Amplify signal", "Shift waveform level", "Rectify input"], "answer_index": 2},
+
+    {"question": "In a series circuit, current is:",
+     "options": ["Different in all components", "Same in all components", "Zero", "Depends on voltage only"], "answer_index": 1},
+
+    {"question": "In a parallel circuit, voltage across components is:",
+     "options": ["Different", "Zero", "Same", "Half of supply"], "answer_index": 2},
+
+    {"question": "A half-wave rectifier has an efficiency of approximately:",
+     "options": ["40.6%", "62.5%", "81.2%", "100%"], "answer_index": 0},
+
+    {"question": "A full-wave rectifier has a ripple frequency of:",
+     "options": ["f", "2f", "0.5f", "4f"], "answer_index": 1},
+
+    {"question": "The output of a bridge rectifier is:",
+     "options": ["AC only", "DC with ripple", "Pure DC", "Zero"], "answer_index": 1},
+
+    {"question": "A shunt capacitor filter primarily:",
+     "options": ["Reduces ripple", "Increases frequency", "Decreases capacitance", "Blocks DC"], "answer_index": 0},
+
+    {"question": "A voltage regulator maintains:",
+     "options": ["Constant current", "Constant voltage", "Constant frequency", "Constant RMS value"], "answer_index": 1},
+
+    {"question": "In a BJT, the base region is:",
+     "options": ["Thick and lightly doped", "Thin and lightly doped", "Thin and heavily doped", "Thick and heavily doped"], "answer_index": 1},
+
+    {"question": "A transistor acts as:",
+     "options": ["A switch", "An amplifier", "Both switch and amplifier", "Rectifier"], "answer_index": 2},
+
+    {"question": "The input impedance of a FET is:",
+     "options": ["Low", "High", "Zero", "Negative"], "answer_index": 1},
+
+    {"question": "An op-amp ideally has:",
+     "options": ["Infinite gain", "Zero gain", "Finite low gain", "Negative gain"], "answer_index": 0},
+
+    {"question": "The voltage gain of an inverting amplifier is:",
+     "options": ["Positive", "Negative", "Zero", "Unity always"], "answer_index": 1},
+
+    {"question": "The binary equivalent of decimal 13 is:",
+     "options": ["1010", "1101", "1110", "1001"], "answer_index": 1},
+
+    {"question": "Which logic gate is called a 'universal gate'?",
+     "options": ["AND", "OR", "NAND", "XOR"], "answer_index": 2},
+
+    {"question": "A flip-flop is a:",
+     "options": ["Combinational circuit", "Memory element", "Voltage regulator", "Rectifier"], "answer_index": 1},
+
+    {"question": "An SR flip-flop becomes invalid when:",
+     "options": ["S=1, R=0", "S=0, R=1", "S=R=1", "S=R=0"], "answer_index": 2},
+
+    {"question": "A register stores:",
+     "options": ["One bit", "Multiple bits", "Two bytes", "Voltage values"], "answer_index": 1},
+
+    {"question": "Boolean algebra was developed by:",
+     "options": ["Einstein", "George Boole", "Shannon", "Kirchhoff"], "answer_index": 1},
+
+    {"question": "The NOT gate output is:",
+     "options": ["Same as input", "Inverted input", "Sum of inputs", "Product of inputs"], "answer_index": 1},
+
+    {"question": "The decimal number 31 in hexadecimal is:",
+     "options": ["1F", "2E", "3A", "F1"], "answer_index": 0},
+
+    {"question": "Hexadecimal number system base is:",
+     "options": ["2", "8", "10", "16"], "answer_index": 3},
+
+    {"question": "In a BJT CE configuration, the output is taken from:",
+     "options": ["Base", "Emitter", "Collector", "Substrate"], "answer_index": 2},
+
+    {"question": "A diode behaves as a/an _____ in reverse bias.",
+     "options": ["Closed switch", "Open switch", "Short circuit", "Amplifier"], "answer_index": 1},
+
+    {"question": "The ripple factor of a full-wave rectifier is:",
+     "options": ["2.21", "1.11", "0.482", "0.121"], "answer_index": 2},
+
+    {"question": "The output of an op-amp comparator is:",
+     "options": ["AC waveform", "DC level (± saturation)", "Filtered signal", "Triangular wave"], "answer_index": 1},
+
+    {"question": "The truth table of XOR gives output 1 when:",
+     "options": ["Inputs are same", "Inputs are different", "Both inputs zero", "Both inputs one"], "answer_index": 1},
+
+    {"question": "The series resistor in a Zener regulator limits:",
+     "options": ["Voltage", "Current", "Noise", "Frequency"], "answer_index": 1},
+
+    {"question": "BCD stands for:",
+     "options": ["Binary Code Digit", "Binary Coded Decimal", "Bit Coded Data", "Binary Count Design"], "answer_index": 1},
+
+    {"question": "Which device is used for voltage stabilization?",
+     "options": ["LED", "Photodiode", "Zener diode", "Varactor"], "answer_index": 2},
+
+    {"question": "The knee voltage of a Zener diode is the point where:",
+     "options": ["Forward current is zero", "Reverse breakdown starts", "Resistance becomes infinite", "Power becomes zero"], "answer_index": 1},
+
+    {"question": "Which flip-flop toggles its output?",
+     "options": ["SR", "JK", "D", "T"], "answer_index": 3},
+
+    {"question": "The OR gate output is 1 when:",
+     "options": ["All inputs are 1", "Any input is 1", "Inputs are 0", "Inputs are equal"], "answer_index": 1},
+
+    {"question": "In a bridge rectifier, number of diodes used is:",
+     "options": ["1", "2", "3", "4"], "answer_index": 3},
+
+    {"question": "Which material is commonly used for making diodes?",
+     "options": ["Copper", "Silicon or Germanium", "Aluminum", "Carbon"], "answer_index": 1},
+
+    {"question": "Which device has the highest input impedance?",
+     "options": ["BJT", "FET", "Diode", "SCR"], "answer_index": 1},
+
+    {"question": "The output of a clamper circuit is a waveform with:",
+     "options": ["Clipped peaks", "Shifted DC level", "Amplified signal", "Constant amplitude"], "answer_index": 1},
+
+    {"question": "Rectifier efficiency improves when using:",
+     "options": ["Half-wave", "Full-wave", "Open circuit", "Short circuit"], "answer_index": 1},
+
+    {"question": "A register is mainly used for:",
+     "options": ["Voltage control", "Temporary data storage", "Signal amplification", "Logic multiplication"], "answer_index": 1},
+
+    {"question": "The universal building blocks for logic design are:",
+     "options": ["AND, OR", "XOR, NOT", "NAND, NOR", "NOR, XOR"], "answer_index": 2},
+
+    {"question": "In boolean algebra, A + A' equals:",
+     "options": ["0", "1", "A", "A'"], "answer_index": 1},
+
+    {"question": "Which rectifier has the lowest ripple frequency?",
+     "options": ["Full-wave", "Bridge", "Half-wave", "Three-phase"], "answer_index": 2},
+    
+    {"question": "Which transistor configuration provides the highest current gain?",
+     "options": ["Common Base", "Common Emitter", "Common Collector", "Emitter Follower"], "answer_index": 1},
+
+    {"question": "In Boolean algebra, A · B represents:",
+     "options": ["OR operation", "AND operation", "NOT operation", "XOR operation"], "answer_index": 1}
+  
+    ],
+
+    "Mechanic Statics": [
+    {"question": "Force summation in equilibrium?",
+         "options": ["Zero", "Positive", "Negative", "Constant"], "answer_index": 0},
+        
+    {"question": "Which of the following is a scalar quantity?",
+     "options": ["Force", "Velocity", "Mass", "Acceleration"], "answer_index": 2},
+
+    {"question": "Which of the following is a vector quantity?",
+     "options": ["Speed", "Work", "Distance", "Displacement"], "answer_index": 3},
+
+    {"question": "The point of application of a force, its magnitude and direction define:",
+     "options": ["Moment", "Vector", "Force", "Couple"], "answer_index": 2},
+
+    {"question": "The horizontal component of a force F at angle θ is:",
+     "options": ["F sinθ", "F cosθ", "F tanθ", "F secθ"], "answer_index": 1},
+
+    {"question": "The vertical component of a force F at angle θ is:",
+     "options": ["F sinθ", "F cosθ", "F cotθ", "F secθ"], "answer_index": 0},
+
+    {"question": "The moment of a force is calculated as:",
+     "options": ["Force + distance", "Force × distance", "Force / distance", "None"], "answer_index": 1},
+
+    {"question": "Which has equal and opposite forces separated by a distance?",
+     "options": ["Resultant", "Moment", "Couple", "Equilibrium"], "answer_index": 2},
+
+    {"question": "The SI unit of moment is:",
+     "options": ["Newton", "Newton-meter", "Joule", "Pascal"], "answer_index": 1},
+
+    {"question": "Two forces are in equilibrium when they are:",
+     "options": ["Equal and opposite", "Parallel", "At right angles", "Zero magnitude"], "answer_index": 0},
+
+    {"question": "Varignon’s theorem states that moment of a force equals:",
+     "options": ["Sum of its components’ moments", "Sum of all forces", "Difference of forces", "Zero"], "answer_index": 0},
+
+    {"question": "The resultant of forces is:",
+     "options": ["Scalar sum", "Vector sum", "Algebraic sum of magnitudes", "Zero"], "answer_index": 1},
+
+    {"question": "A body is in static equilibrium when:",
+     "options": ["ΣF = 0", "ΣM = 0", "Both ΣF = 0 and ΣM = 0", "Only vertical forces are zero"], "answer_index": 2},
+
+    {"question": "A truss is a structure made up of:",
+     "options": ["Beams only", "Two-force members", "Cables", "Plates"], "answer_index": 1},
+
+    {"question": "Which method is used to analyze trusses?",
+     "options": ["Method of joints", "Method of sections", "Both A and B", "Moment-area method"], "answer_index": 2},
+
+    {"question": "The centroid of a uniform rod lies:",
+     "options": ["At the centre", "At one end", "At mid-thickness", "Depends on angle"], "answer_index": 0},
+
+    {"question": "The centroid of a triangle is located at:",
+     "options": ["At the base", "At the vertex", "2/3 height from vertex", "1/3 height from vertex"], "answer_index": 3},
+
+    {"question": "The internal force in a beam acting perpendicular to its axis is:",
+     "options": ["Axial force", "Shear force", "Bending moment", "Torque"], "answer_index": 1},
+
+    {"question": "The resistance offered to sliding motion is called:",
+     "options": ["Torque", "Friction", "Inertia", "Drag"], "answer_index": 1},
+
+    {"question": "The coefficient of friction μ is equal to:",
+     "options": ["Friction force / Normal force", "Normal force / Friction force", "Friction × Normal", "None"], "answer_index": 0},
+
+    {"question": "The maximum static friction is:",
+     "options": ["Greater than limiting friction", "Equal to limiting friction", "Less than limiting friction", "Zero"], "answer_index": 1},
+
+    {"question": "The moment of inertia of a rectangular area (bd³/12) is taken about:",
+     "options": ["Base", "Centroidal axis", "Top edge", "Diagonal"], "answer_index": 1},
+
+    {"question": "The moment of inertia depends on:",
+     "options": ["Area only", "Shape only", "Area distribution", "Density"], "answer_index": 2},
+
+    {"question": "Lami’s theorem is applicable only when:",
+     "options": ["Three forces are parallel", "Three forces are mutually perpendicular", "Three forces act at a point and are in equilibrium", "Only axial forces present"], "answer_index": 2},
+
+    {"question": "In a free body diagram, we show:",
+     "options": ["Only external forces", "Only internal forces", "All acting forces", "Only reactions"], "answer_index": 2},
+
+    {"question": "A body with zero acceleration is in:",
+     "options": ["Dynamic equilibrium", "Static equilibrium", "Rotational motion", "Torque"], "answer_index": 1},
+
+    {"question": "The line of action of a force is:",
+     "options": ["Path taken by body", "Direction extended infinitely", "Normal to surface", "None"], "answer_index": 1},
+
+    {"question": "Decomposition of a force means:",
+     "options": ["Adding forces", "Splitting into components", "Finding angle", "Balancing forces"], "answer_index": 1},
+
+    {"question": "The bending moment at a pinned support is:",
+     "options": ["Zero", "Maximum", "Minimum", "Infinite"], "answer_index": 0},
+
+    {"question": "Simply supported beams have:",
+     "options": ["Fixed ends", "Roller and hinge supports", "Cantilever support", "No supports"], "answer_index": 1},
+
+    {"question": "The shear force at the free end of a cantilever is:",
+     "options": ["Zero", "Maximum", "Minimum", "Depends on loading"], "answer_index": 0},
+
+    {"question": "A couple produces:",
+     "options": ["Translation", "Rotation", "Zero torque", "Vibration"], "answer_index": 1},
+
+    {"question": "The concurrency of forces means they:",
+     "options": ["Are equal", "Intersect at a common point", "Have same magnitude", "Are perpendicular"], "answer_index": 1},
+
+    {"question": "A zero-force member in a truss is identified when:",
+     "options": ["Two non-collinear members meet at loaded joint", "Two collinear members meet at unloaded joint", "All forces are zero", "Node is fixed"], "answer_index": 1},
+
+    {"question": "The unit of moment of inertia is:",
+     "options": ["m", "m²", "m³", "m⁴"], "answer_index": 3},
+
+    {"question": "Friction force acts:",
+     "options": ["Opposite to motion", "In direction of motion", "Perpendicular to motion", "At 45° to motion"], "answer_index": 0},
+
+    {"question": "The triangle law is used to find:",
+     "options": ["Resultant of two vectors", "Centroid", "Moments", "Shear force"], "answer_index": 0},
+
+    {"question": "The polygon law is used for:",
+     "options": ["Single force systems", "Multiple force systems", "Friction", "Moments"], "answer_index": 1},
+
+    {"question": "The bending moment is maximum where:",
+     "options": ["Shear force is zero", "Shear force is maximum", "Load is zero", "At supports"], "answer_index": 0},
+
+    {"question": "A two-force member carries forces that are:",
+     "options": ["Perpendicular", "Equal and opposite", "Random", "Parallel to each other"], "answer_index": 1},
+
+    {"question": "The centroid of a semicircle lies at a distance of ______ from its base.",
+     "options": ["2R/3", "4R/3π", "R/2", "3R/4"], "answer_index": 1},
+
+    {"question": "The friction angle φ is given by:",
+     "options": ["sin⁻¹(μ)", "cos⁻¹(μ)", "tan⁻¹(μ)", "μ×θ"], "answer_index": 2},
+
+    {"question": "In equilibrium, the sum of all horizontal forces is:",
+     "options": ["Zero", "Maximum", "Minimum", "Equal to vertical force"], "answer_index": 0},
+
+    {"question": "In equilibrium, the sum of moments about any point is:",
+     "options": ["Minimum", "Zero", "Equal to resultant", "Constant"], "answer_index": 1},
+
+    {"question": "The unit of force is:",
+     "options": ["Pascal", "Newton", "Joule", "Watt"], "answer_index": 1},
+
+    {"question": "Which type of support resists vertical and horizontal forces but not moment?",
+     "options": ["Fixed", "Hinge", "Roller", "Cantilever"], "answer_index": 1},
+
+    {"question": "Which type of support provides only a vertical reaction?",
+     "options": ["Roller", "Hinge", "Fixed", "Pinned"], "answer_index": 0},
+
+    {"question": "The centroid of a composite body is found using:",
+     "options": ["Vector law", "Area moments", "Shear equation", "Friction law"], "answer_index": 1},
+
+    {"question": "If two equal forces act at a point at 90°, the magnitude of the resultant is:",
+     "options": ["2F", "F", "F√2", "F/2"], "answer_index": 2},
+
+    {"question": "Which of the following does NOT affect the centroid of a body?",
+     "options": ["Area distribution", "Shape of the body", "Orientation of the body", "Material density"], "answer_index": 3}
+   
+    ]
+}
+
